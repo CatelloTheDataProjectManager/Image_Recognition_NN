@@ -1,6 +1,6 @@
-# Neural Networks
+# Image Recognition using Neural Networks
 
-This repository contains multiple notebooks for deep learning projects. Each notebook corresponds to a specific project.
+This repository contains multiple notebooks for deep learning projects focused on image recognition. Each notebook corresponds to a specific project.
 
 ## Notebook Contents
 
