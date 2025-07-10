@@ -27,3 +27,16 @@ This repository contains multiple notebooks for deep learning projects focused o
     - **Dataset**: Time series data (to be specified)
     - **Models**: RNN (including LSTM, GRU, etc.)
     - **Results**: Prediction curves and performance 
+
+5. **[YOLO_LabelStudio.ipynb](https://github.com/CatelloTheDataProjectManager/Image_Recognition_NN/blob/main/Train_YOLO_Models_(Fire).ipynb)**
+    - **Description**: This notebook demonstrates how to train an object detection model using the YOLO architecture with custom annotations exported from Label Studio. It includes automatic generation of the `data.yaml` config file, model configuration (e.g., choosing YOLOv5, YOLOv8, or YOLO11 variants), training setup, and evaluation on a validation dataset. The workflow is fully integrated with the Ultralytics YOLO library, allowing quick experimentation with various model sizes and resolutions.
+    - **Dataset**: Custom-labeled dataset (Label Studio export format)
+    - **Models**: YOLOv5, YOLOv8, or YOLO11 (s/m/l/xl variants)
+    - **Results**: mAP, precision, recall, training metrics per epoch, and sample predictions on validation images.
+  
+    <p float="left">
+      <img src="https://github.com/CatelloTheDataProjectManager/Image_Recognition_NN/blob/main/fire_80.jpeg?raw=true" alt="Sample Prediction 1" height="350"/>
+      <img src="https://github.com/CatelloTheDataProjectManager/Image_Recognition_NN/blob/main/fire_82.jpeg?raw=true" alt="Sample Prediction 2" height="350"/>
+    </p>
+
+
